@@ -291,7 +291,177 @@ footer{
 /* ============================================================600-768PX=================================================== */
 @media screen and (min-width:600px) and (max-width:786px){
     :root{
-        font-size:12px;
+        font-size:15px;
+    }
+    header{
+        display:block;
+        padding:20px;
+        height:150px;
+    }
+    .logo{
+        display:inline-block;
+        margin-top:15px;
+       
+    }
+    nav{
+        width:92.5%;
+        position:absolute;
+        top:100px;
+    }
+    nav ul{
+        display:flex;
+        justify-content: space-around;
+    }
+    nav li{
+        padding:0;
+    }
+    nav li::after{
+        top:100%;
+    }
+    header button{
+        float:right;
+        position: absolute;
+        right:20px;
+        top:20px;
+        width:160px;
+    }
+    /* -----------------------SECTION-TWO------------ */
+    .section-two{
+        height:auto;
+        text-align: center;
+    }
+    .first-part{
+        margin-left:0rem;
+    }
+    .first-part h4{
+        font-size:3rem;
+        padding-top:2rem;
+    }
+    .first-part button{
+        margin-bottom:40px;
+    }
+    .first-part p{
+        font-size:1.2rem;
+        line-height:1.6rem;
+    }
+    .second-part{
+        float:left;
+        margin-top:-200px;
+        width:100%;
+    }
+    .phones{
+        margin-left:0;
+        margin-right:-10px;
+    }
+    .phones img{
+        width:80%;
+        margin-left:0px;
+        margin-top:100px;
+    }
+    /* ------------------------------SECTION-THREE------------------ */
+    .section-three{
+        padding-left:0rem;
+        text-align: center;
+        padding:30px;
+    }
+    .section-three h3{
+        font-size:2.5rem;
+        padding-top:2rem;
+        padding:1rem;
+    }
+    .section-three p{
+        font-size:1.2rem;
+        line-height:1.6rem;
+        padding:0 1rem;
+    }
+    .flex-cont{
+        flex-direction:column;
+        align-items: center;
+         padding-top:3rem;
+     }
+     .items{
+        width:100%;
+        margin-right:0rem;
+    }
+    .items h3{
+        font-size:1.5rem;
+        padding:2rem 0;
+    }
+    .items p{
+        font-size:1.2rem;
+        line-height:1.5rem;
+        padding-bottom:3rem;
+    }
+    .items img{
+        width:18%;
+    }
+    /* ------------------------------SECTION-FOUR--------------------- */
+    .section-four{
+        padding-left:0rem;
+        padding:30px;
+    }
+    .section-four h2{
+        font-size:2.5rem;
+        padding-top:4rem;
+        padding-bottom:3rem;
+        text-align: center;
+    }
+    figure{
+        width:100%;
+        margin-left:0px;
+        margin-bottom:30px;
+    }
+    figure:last-child{
+        margin-bottom:0;
+    }
+    figcaption h5{
+        font-size:.8rem;
+    }
+    figcaption h4{
+        font-size:1.3rem;
+    }
+    figcaption p{
+        font-size:.9rem;
+    }
+    .flex-cont-two{
+        flex-direction:column;
+        padding-bottom:5rem;
+    }
+    .picture{
+        width:100%;
+        height:300px;
+    }
+    /* ----------------------------FOOTER--------------------------- */
+    footer{
+        padding:50px 0;
+        text-align: center;
+    }
+    .main-footer-cont{
+       flex-direction:column;
+    }
+    .logo-side{
+        flex-direction:column;
+        width:100%;
+    }
+    .logo-with-socials .logo img{
+        background-color: hsl(0, 0%, 100%);
+    }
+    .socials{
+        margin:30px 0;
+    }
+    .socials i{
+        font-size:1.5rem;
+        padding:5px;
+    }
+    .links li{
+        padding:10px 0;
+    }
+    .button-part{
+        text-align: center;
+        margin-top:30px;
+    }
+    .button-part button{
+        width:25%;
     }
 }
 /* ============================================================500PX======================================================== */
